@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Julia Bugayev</h1>
 <h3 align="center">A passionate full stack engineer residing in Los Angeles</h3>
 
-- 👯 I’m looking learning on **Udemy and Scrimba to refine my skill sets in React, JavaScript, and Algorithms and Data Structures**
+- 👯 I’m learning on **Udemy and Scrimba to refine my skill sets in React, JavaScript, and Algorithms and Data Structures**
 
 - 👨‍💻 All of my projects are available at [https://vercel.com/jbugayev18](https://vercel.com/jbugayev18)
 

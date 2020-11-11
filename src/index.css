@@ -1,13 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.about-icons {
+  font-size: 4em;
+}
+
+/* Mobile: Applies from 0px to 600px */
+@media all and (max-width: 600px) {
+  body {
+    background-color: #f8f8f8;
+  }
+  main {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .body-about {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .about-icons {
+    font-size: 50px;
+    text-align: center;
+    padding-right: 16px !important;
+  }
+
+  .tech-icons {
+    font-size: 50px;
+    text-align: center;
+    padding-right: 16px !important;
+  }
+
+  .tech-skills-list {
+    display: list-item;
+    list-style-type: "\1F44D";
+    padding-top: 20px;
+    word-spacing: 6px;
+  }
 }

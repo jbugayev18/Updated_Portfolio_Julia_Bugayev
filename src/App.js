@@ -15,7 +15,7 @@ function App() {
         <About />
         <ProfilePic />
       </div>
-      <Introduction />
+      {/* <Introduction /> */}
       <AboutIcons />
       <TechSkills />
       <TechSkillsIcons />

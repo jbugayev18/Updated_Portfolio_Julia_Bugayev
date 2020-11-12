@@ -117,29 +117,35 @@ code {
 @media all and (min-width: 800px) {
   .about-section {
     width: 50%;
-    float: right;
-    padding: 20px;
+    padding: 8px;
+    height: 5%;
     /* display: flex;
     flex: 1;
     flex-direction: column;
     /* justify-content: space-evenly; */
     /* margin-right: 20px; */
     font-size: 50px;
+    border: 1px solid blue;
   }
 
   .body-about {
-    font-size: 40px;
+    font-size: 48px;
+  }
+
+  .more-about {
+    padding-top: 5%;
+    font-size: 48px;
+    border: 1px solid red;
   }
 
   .profile-pic {
-    width: 50%;
-    float: right;
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    border: 1px solid green;
     padding: 20px;
     margin-top: 10%;
-    /* display: flex;
-    flex: 1;
-    margin-right: -78%;
-    margin-top: 10%; */
+    align-items: center;
   }
 
   .wrap {
@@ -147,8 +153,6 @@ code {
     flex-direction: row;
     justify-content: center;
     padding: 20px;
-    /* align-items: center;
-    justify-content: center; */
   }
 
   .introduction {
@@ -161,10 +165,16 @@ code {
   .about-icons {
     display: flex;
     flex-direction: row;
-    font-size: 50px;
-    text-align: center;
+    font-size: 120px;
+    width: 50%;
+    margin-top: -5%;
+    margin-bottom: 5%;
+    /* padding-top: 10%; */
+    /* padding-bottom: 8%; */
+    margin-left: 8%;
     justify-content: space-evenly;
-    padding: 16px !important;
+    border: 1px solid green;
+    /* padding: 16px !important; */
   }
 
   .about-icons a {
@@ -193,28 +203,35 @@ code {
     color: #c0c0c0;
   }
 
+  .project-header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+  }
+
   .all-projects {
     display: flex;
     flex-direction: row;
     text-align: center;
+    border: 1px solid green;
   }
 
   .all-projects h1 {
     display: flex;
-
     justify-content: center;
-    text-align: center;
+    align-content: center;
+    border: 1px solid orange;
   }
 
   .project {
+    border: 1px solid brown;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     margin-bottom: 30px;
     margin: 20px;
-
     padding: 4px;
     border-radius: 16px;
     background-image: linear-gradient(to bottom, #dcdcdc, #d3d3d3);
@@ -225,9 +242,15 @@ code {
     margin: 15px;
     padding: 8px;
     border-radius: 15px;
+    border: 1px solid purple;
   }
 
   .project h3 {
+    border: 1px solid purple;
     font-size: 1.2em;
+  }
+
+  .screenshots {
+    border: 1px solid purple;
   }
 }

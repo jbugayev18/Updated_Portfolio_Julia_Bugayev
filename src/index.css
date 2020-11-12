@@ -15,6 +15,20 @@ code {
   font-size: 4em;
 }
 
+.screenshots {
+  display: flex;
+  flex: 33.3%;
+  width: 300px;
+}
+
+.project p {
+    margin: auto;
+    width: 90%;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 18px;
+}
+
 /* Mobile: Applies from 0px to 600px */
 @media all and (max-width: 600px) {
   body {

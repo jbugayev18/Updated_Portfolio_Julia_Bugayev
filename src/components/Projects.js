@@ -20,8 +20,8 @@ export default function Projects() {
             className="screenshots"
             src={LetsGetEducated}
             alt="Let's Get Educated"
-            width="300"
-            height="600"
+            // width="300"
+            // height="600"
           />
           <a href="https://tutor-app.jbugayev18.vercel.app/">
             <FontAwesomeIcon icon={faShareAlt} className="project-icon" /> Live

@@ -6,7 +6,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 export default function AboutIcons() {
   return (
     <div className="about-icons">
-      <a href="www.linkedin.com/in/juliabugayev">
+      <a href="https://www.linkedin.com/in/juliabugayev">
         <FontAwesomeIcon icon={faLinkedin} />
       </a>
       <a href="https://github.com/jbugayev18">

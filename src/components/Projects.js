@@ -2,17 +2,15 @@ import { faGithubAlt } from "@fortawesome/free-brands-svg-icons";
 import { faShareAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import DonationHub from "../Photos/DonationHubScreen.png";
-import LetsGetEducated from "../Photos/LetsGetEducated.PNG";
-import TentarePhoneScreenshot from "../Photos/TentarePhoneScreenshot.PNG";
+import DonationHub from "../Photos/donation_hub.png";
+import LetsGetEducated from "../Photos/tutor_app.png";
+import TentarePhoneScreenshot from "../Photos/tentare.png";
 
 export default function Projects() {
   return (
     <main className="project-header">
       <h1>Projects</h1>
 
-
-      
       <div className="all-projects">
         <div className="project">
           <h3>Let's Get Educated!</h3>
@@ -20,8 +18,6 @@ export default function Projects() {
             className="screenshots"
             src={LetsGetEducated}
             alt="Let's Get Educated"
-            // width="300"
-            // height="600"
           />
           <a href="https://tutor-app.jbugayev18.vercel.app/">
             <FontAwesomeIcon icon={faShareAlt} className="project-icon" /> Live
@@ -56,8 +52,6 @@ export default function Projects() {
             className="screenshots"
             src={TentarePhoneScreenshot}
             alt="Tentare Phone Screenshot"
-            width="300"
-            height="600"
           />
           <a href="https://tentare-client.vercel.app/register">
             <FontAwesomeIcon icon={faShareAlt} /> Live App
@@ -91,8 +85,6 @@ export default function Projects() {
             className="screenshots"
             src={DonationHub}
             alt="DonationHub Homepage Screenshot"
-            width="300"
-            height="600"
           />
           <a href="https://donation-hub-client.vercel.app/">
             <FontAwesomeIcon icon={faShareAlt} /> Live App

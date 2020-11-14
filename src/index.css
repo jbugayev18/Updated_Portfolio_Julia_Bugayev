@@ -119,9 +119,21 @@ p {
 }
 
 img {
+  display: flex;
   width: 80%;
-  max-height: 500px;
+  max-height: 100%;
   border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.profile-pic {
+  display: flex;
+}
+
+.profile-pic img {
+  border-radius: 50%;
 }
 
 /* Applies from 600px */
@@ -129,26 +141,26 @@ img {
 @media all and (min-width: 600px) {
   .about-section {
     width: 50%;
+    height: 100%;
     padding: 8px;
-    height: 5%;
-    font-size: 50px;
+    margin-top: 10%;
+  }
+
+  .hello-there,
+  .my-name {
+    font-size: 56.9px;
   }
 
   .body-about {
-    font-size: 48px;
-  }
-
-  .more-about {
-    padding-top: 5%;
-    font-size: 48px;
+    font-size: 1.8em;
   }
 
   .profile-pic {
     display: flex;
     justify-content: flex-end;
-    width: 60%;
+    width: 50%;
     padding: 2%;
-    margin-top: 10%;
+    margin-top: 1%;
     align-items: center;
   }
 
@@ -156,8 +168,9 @@ img {
     display: flex;
     justify-content: flex-end;
     height: auto;
-    max-width: 100%;
+    max-width: auto;
     align-items: center;
+    border-radius: 50%;
   }
 
   .wrap {
@@ -167,22 +180,20 @@ img {
     padding: 20px;
   }
 
-  .introduction {
+  .introduction-section {
     display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: row;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.8em;
   }
 
   .about-icons {
     display: flex;
     flex-direction: row;
-    font-size: 120px;
-    width: 50%;
-    margin-top: -5%;
+    font-size: 80px;
     margin-bottom: 5%;
-    margin-left: 8%;
     justify-content: space-evenly;
+    align-items: center;
   }
 
   .about-icons a {

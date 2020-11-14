@@ -13,6 +13,11 @@ export default function TechSkillsList() {
       </li>
       <li className="tech-skills-list">
         {" "}
+        I enjoy work collaboratively with teams, spewing various ideas, and
+        learning valuable skills from teammates.
+      </li>
+      <li className="tech-skills-list">
+        {" "}
         I can bring unique perspective and many transferable skills from my
         industry experience in biomedical research and education.{" "}
       </li>
